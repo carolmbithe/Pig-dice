@@ -11,21 +11,28 @@
     </head>
     <body>
       <div class="container">
+        <div class="jumbotron">
         <h1>Pig Dice Game</h1>
+      </div>
           <div class="row">
-              <div class="col-md-6 bg-warning ">
-                player 1
-                  <img src="images/person.jpeg"
+              <div class="col-md-5 bg-warning ">
+                <p>player 1</p>
+                  <img src="images/person.jpeg">
+                  <p>ROLLEDSIDE:<span id="rolledside"></span></p>
+
+              <p>:TOTAL SCORE:<span id="totalscore"></span></p>
               </div>
-              <p>TOTAL SCORE</p>
-          <div class>
-          <button class="btn btn danger " id="play">Play</button>
-         </div>
-         <div class="col-md-6 bg-danger">
-           player 2
-        <img src="images/person.jpeg"
-        </div>
-          <p>TOTAL SCORE</p>
+              <div class="col-md-2 bg-warning ">
+                 <p><button class="btn-primary btn " id="play">Play</button><br></p>
+                 <p><button class="btn-primary btn " id="hold">hold</button></p>
+              </div>
+              <div class="col-md-5 bg-danger">
+                <p>player 2</p>
+              <img src="images/person.jpeg">
+                <p>ROLLEDSIDE:<span id="rolledside"></span></p
+                <p>TOTAL SCORE:<span id="totalscore"></span></p>
+            </div>
+
         </div>
       </div>
     </body>

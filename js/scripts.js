@@ -1,11 +1,11 @@
 var rolledSide=Math.floor(Math.random()*6)+1
-var totalScore=+
+var totalScore+=rolledSide;
 
-$document
+$(document).ready(function() {
 $("button#play").click(function(){
   var rolledSide=Math.floor(Math.random()*6)+1
-  var totalScore=+
+  var totalScore=+rolledSide;
 
-  if(rolledSide)
-  else()
+
+  
 }
