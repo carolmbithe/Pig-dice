@@ -11,14 +11,14 @@
     </head>
     <body>
       <div class="container">
-        <div class="jumbotron">
+        <div class="jumbotron bg-dark text-white">
         <h1>Pig Dice Game</h1>
       </div>
           <div class="row">
 
             <div class="rules">
               <p>Game rules:</p><br>
-              <p>If you roll 1 your score becomes 0</p>
+              <p>Each player in turn throws the die and continues to throw the die until either a 1 is thrown or they decide to hold.  If a 1 is thrown they score nothing for that turn.  If they elect to stop before a 1 is thrown they score the total of the numbers thrown in that turn.  The scores are noted for each turn and the player who obtains a total score over 100, wins the game, provided they are not then out-scored by a subsequent player who has thrown one fewer rolls and still has a turn left.</p>
           </div>
               <div class="col-md-5 bg-danger ">
                 <p>player 1</p>
@@ -26,17 +26,17 @@
                   <p>ROLLEDSIDE:<span id="rolledside1"></span></p>
                   <p>TOTAL SCORE:<span id="totalscore1">0</span></p>
                   <p><button class="btn-primary btn " id="play1">Play</button><br></p>
-                  <p><button class="btn-primary btn " id="hold1">hold</button></p>
+                  <p><button class="btn-success btn " id="hold1">hold</button></p>
 
               </div>
 
-                <div class="col-md-5 bg-danger">
+                <div class="col-md-5 bg-success">
                 <p>player 2</p>
                   <img src="images/person.jpeg">
                 <p>ROLLEDSIDE:<span id="rolledside2"></span></p
                 <p>TOTAL SCORE:<span id="totalscore2">0</span></p>
                 <p><button class="btn-primary btn " id="play2">Play</button><br></p>
-                <p><button class="btn-primary btn " id="hold2">hold</button></p>
+                <p><button class="btn-success btn " id="hold2">hold</button></p>
             </div>
 
         </div>
