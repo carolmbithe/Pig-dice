@@ -15,22 +15,28 @@
         <h1>Pig Dice Game</h1>
       </div>
           <div class="row">
+
+            <div class="col-md-2 bg warning">
+              <p>Game rules:</p><br>
+              <p>If you roll 1 your score becomes 0</p>
+          </div>
               <div class="col-md-5 bg-warning ">
                 <p>player 1</p>
                   <img src="images/person.jpeg">
-                  <p>ROLLEDSIDE:<span id="rolledside"></span></p>
+                  <p>ROLLEDSIDE:<span id="rolledside1"></span></p>
+                  <p>TOTAL SCORE:<span id="totalscore1">0</span></p>
+                 <p><button class="btn-primary btn " id="play1">Play</button><br></p>
+                 <p><button class="btn-primary btn " id="hold1">hold</button></p>
 
-              <p>:TOTAL SCORE:<span id="totalscore"></span></p>
               </div>
-              <div class="col-md-2 bg-warning ">
-                 <p><button class="btn-primary btn " id="play">Play</button><br></p>
-                 <p><button class="btn-primary btn " id="hold">hold</button></p>
-              </div>
+
               <div class="col-md-5 bg-danger">
                 <p>player 2</p>
               <img src="images/person.jpeg">
-                <p>ROLLEDSIDE:<span id="rolledside"></span></p
-                <p>TOTAL SCORE:<span id="totalscore"></span></p>
+                <p>ROLLEDSIDE:<span id="rolledside2"></span></p
+                <p>TOTAL SCORE:<span id="totalscore2">0</span></p>
+                <p><button class="btn-primary btn " id="play2">Play</button><br></p>
+                <p><button class="btn-primary btn " id="hold2">hold</button></p>
             </div>
 
         </div>
