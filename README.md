@@ -8,10 +8,10 @@ Pig dice game is played with a single six-sided die and players are allowed to m
 The first player to score 100 points (or any other predetermined score at the beginning of the game) wins the game.
 
 # Deployment
-You can get my livesite at gh-pages with this link https://carolmbithe.github.io/Quizboard/
+You can get my livesite at gh-pages with this link 
 
 # Project setup instructions
-You can install this app by cloning the repository from this link https://github.com/carolmbithe/Quizboard.git.
+You can install this app by cloning the repository from this link
 
 # Known Bugs
 There are no known bugs so far,everything is working.
