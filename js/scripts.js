@@ -9,11 +9,11 @@ var player2=new player(rolledside2,totalscore2);
 //  player.prototype.totalScore = function() {
   //return this.ROLLEDSIDE += ROLLEDSIDE;
 //}
-player1.rolledside
-player2.rolledside
-player1.totalscore
-player2.totalscore
-var totalScore =0;
+//player1.rolledside
+//player2.rolledside
+//player1.totalscore
+//player2.totalscore
+//var totalScore =0;
 
 
 
@@ -30,18 +30,19 @@ $("button#play1").click(function(){
     alert("Ooops!!You rolled 1.It's the other player's turn");
   }
   $("button#hold").click(function(){
-    alert("Its the other players turn")
+    alert("Its the other players turn");
   });
 $("button#play2").click(function(){
   var rolledSide2=Math.floor(Math.random()*6)+1
 
 $("#rolledside2").text(rolledSide2);
 $("#totalscore2").text(rolledSide);
-if(rolledSide2==1  ) {
+  });
+if(rolledSide2==1) {
 
   alert("Ooops!!You rolled 1.It's the other player's turn");
 }
-$("button#hold2").click(function(){
-  alert("Its the other players turn");
-});
-});
+//$("button#hold2").click(function(){
+  //alert("Its the other players turn");
+//}
+  });

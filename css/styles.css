@@ -1,3 +1,10 @@
+h1{
+  text-align:center;
+}
 body{
   background-color: maroon;
+}
+.rules{
+  float:left;
+  width: 100px;
 }
