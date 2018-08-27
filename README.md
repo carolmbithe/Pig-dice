@@ -8,14 +8,24 @@ Pig dice game is played with a single six-sided die and players are allowed to m
 The first player to score 100 points (or any other predetermined score at the beginning of the game) wins the game.
 
 # Deployment
-You can get my livesite at gh-pages with this link 
+You can get my livesite at gh-pages with this link  https://carolmbithe.github.io/Pig-dice/
 
 # Project setup instructions
-You can install this app by cloning the repository from this link
+You can install this app by cloning the repository from this link https://github.com/carolmbithe/Pig-dice.git
 
 # Known Bugs
 There are no known bugs so far,everything is working.
-#Specifications
+#Behaviour Driven Development
+Input:When the player clicks on play.
+Output:The rolled side is shown and the total score is displayed which adds to the rolled sides.
+
+Input:When you roll 1.
+Output:The total score becomes 0.
+
+Input:When you click hold.
+Output:The play goes to the second player.
+
+The first player to get to 100 total score becomes the winner.  
 
 
 # Technologies Used
