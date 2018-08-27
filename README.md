@@ -15,7 +15,7 @@ You can install this app by cloning the repository from this link https://github
 
 # Known Bugs
 There are no known bugs so far,everything is working.
-#Behaviour Driven Development
+# Behaviour Driven Development
 Input:When the player clicks on play.
 Output:The rolled side is shown and the total score is displayed which adds to the rolled sides.
 
